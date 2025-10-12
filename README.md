@@ -1,5 +1,3 @@
 # School projects awoo
 
----
-
 yupp
