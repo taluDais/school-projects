@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0.5%;
+    border-radius: 10px;
 }
 
 header h1 {
@@ -31,7 +33,7 @@ nav a {
 }
 
 .hero {
-    background: url("https://placehold.co/1200x400") center/cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://placehold.co/1200x400") center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 120px 20px;
@@ -99,4 +101,8 @@ footer {
     background-color: #004d66;
     color: white;
     padding: 40px 20px;
+}
+
+#o-nas, #oferta, #galeria {
+    margin: 0 20%;
 }
