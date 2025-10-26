@@ -1,0 +1,30 @@
+:root {
+   --bg-color: #ffffe0;
+   --primary-text-color: #404020;
+}
+
+body {
+   background-color: var(--bg-color);
+   color: var(--primary-text-color);
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: var(--bg-color);
+   color: var(--primary-text-color);
+   padding: 15px 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+   margin: 0;
+   padding: 0;
+}
